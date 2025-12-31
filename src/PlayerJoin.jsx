@@ -10,7 +10,7 @@ export default function PlayerJoin() {
   const [current, setCurrent] = useState(null);
   const [claims, setClaims] = useState({});
   const [marked, setMarked] = useState({});
-  const [manualMarking, setManualMarking] = useState(false);
+  const [manualMarking, setManualMarking] = useState(true);
 
   // Professional claim labels
   const claimLabels = {
